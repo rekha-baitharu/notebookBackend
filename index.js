@@ -6,12 +6,12 @@ var fileUpload = require("express-fileupload");
 const { json } = require("body-parser");
 var cors = require("cors");
 var userrouter = require("./routes/user_router.js");
-var maths = require("./routes/maths.js");
+// var maths = require("./routes/maths.js");
 var ObjectID = require("mongodb").ObjectID;
 var mongoose = require('mongoose');
-var uniqueValidator = require('mongoose-unique-validator');
+// var uniqueValidator = require('mongoose-unique-validator');
 var jwt = require("jsonwebtoken");
-const bcrypt = require("bcryptjs");
+// const bcrypt = require("bcryptjs");
 
 app.set("port", process.env.PORT || 5000);
 app.use(cors());

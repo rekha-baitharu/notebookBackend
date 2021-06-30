@@ -2,7 +2,7 @@ module.exports = {
     configure: function (app, database) {
       var ObjectID = require("mongodb").ObjectID;
       var jwt = require("jsonwebtoken");
-      const bcrypt = require("bcryptjs");
+    //   const bcrypt = require("bcryptjs");
       var multer = require("multer");
       var user_module = require("../modules/user_module")(database);
       var storage = multer.diskStorage({
